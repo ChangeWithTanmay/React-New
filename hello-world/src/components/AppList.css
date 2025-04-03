@@ -1,0 +1,18 @@
+.Hi{
+    background-color: blue;
+    color: aqua;
+    /* height: 70px; */
+    width: 30%;
+    /* height: 50px; */
+    
+    /* width: 300px; */
+  border: 5px solid green;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  }
+
+  .name{
+    border: 5px solid red;
+  border-radius: 25%;
+  }
