@@ -24,6 +24,20 @@ function App() {
     }
   }
 
+  // Interview question
+  const addvalueForInter = () =>{
+    setCount((count)=> count+1)
+    setCount((count)=> count+1)
+    setCount((count)=> count+1)
+    setCount((previousCoun)=>previousCoun+1)
+    // setCount(count+1)
+    // setCount(count+1)
+  }
+
+  const quickFix = () =>{
+    setCount(20)
+  }
+
   return (
     <>
       <h1>React Hooks with chai our code</h1>
@@ -33,6 +47,9 @@ function App() {
           Add Product
         </button>
         <button onClick={removeValue}>Remove</button>
+        <br /> <br />
+        <button onClick={addvalueForInter}>Interview</button>
+        <button onClick={quickFix}>quickFix</button>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
